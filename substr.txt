@@ -1,0 +1,1 @@
+I am trying out if substr is faster than preg_match
