@@ -19,6 +19,7 @@ while(--$stop)
 {
   if( ! in_array( $search, $array, true ) ){
     /*
+     * Put Code Here
     */
   }
 }
@@ -33,6 +34,7 @@ while(--$stop)
 {
   if ( $search !== 'update_plugins' && $search !== 'update_themes' && $search !== 'update_core' ) {
     /*
+     * Put Code Here
     */
   }
 }
@@ -47,9 +49,11 @@ while(--$stop)
 {
   if ( $search !== 'update_plugins' || $search !== 'update_themes' || $search !== 'update_core' ) {
     /*
+     * Nothing Here
     */
   }else{
     /*
+     * Put Code Here
     */
   }
 }
