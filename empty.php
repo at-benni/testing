@@ -23,7 +23,7 @@ while(--$stop)
 
 echo number_format(microtime(true) - $start, 5)." secs\n\n";
 
-echo "count ";
+echo "count === ";
 $stop = $INTERVAL;
 $start = microtime(true);
 
@@ -37,7 +37,23 @@ while(--$stop)
 
 echo number_format(microtime(true) - $start, 5)." secs\n\n";
 
-//OUTPUT:
-//empty 0.77845secs
+echo "count == ";
+$stop = $INTERVAL;
+$start = microtime(true);
 
-//count 0.83372secs
+while(--$stop)
+{
+  if ( count ( $array ) == 0 ) {
+    /*
+    */
+  }
+}
+
+echo number_format(microtime(true) - $start, 5)." secs\n\n";
+
+//OUTPUT:
+//empty 0.77974 secs
+
+//count === 0.80511 secs
+
+//count == 0.68375 secs
