@@ -1,5 +1,3 @@
-// A Test to test the performance of empty vs count()===0
-
 <?php
 
 #$INTERVAL = 1_000_000_000;
@@ -40,8 +38,6 @@ while(--$stop)
 echo number_format(microtime(true) - $start, 5)." secs\n\n";
 
 //OUTPUT:
-//in_array 2.16405
+//empty 0.77845secs
 
-//if && 2.79029
-
-//if else 1.16683
+//count 0.83372secs
